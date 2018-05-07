@@ -169,6 +169,7 @@ header.masthead {
   color: white;
   background-image: url("../img/header-bg5.jpg");
   height: 100vh;
+  min-height: 800px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -312,6 +313,10 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+.portfolio-heading {
+  color: sandybrown;
+}
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
@@ -330,6 +335,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content {
   padding: 100px 0;
   text-align: center;
+  background-image: url("../img/PNGs/Melamine-wood-001.png");
 }
 
 .portfolio-modal .modal-content h2 {
@@ -401,9 +407,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bg-portfolio {
-  background-image: url("../img/maple.jpg");
-  background-image: url("../img/pattern_images/6.jpg");
-  background-image: url("../img/PNGs/Melamine-wood-002.png");
+  background-image: url("../img/wood_1/wood_1.png");
 }
 
 .timeline {
@@ -596,6 +600,10 @@ header.masthead .intro-text .intro-heading {
   background-image: url("../img/PNGs/Melamine-wood-001.png");
 }
 
+.team-heading {
+  color: sandybrown !important;
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -618,7 +626,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bg-team {
-  background-image: url("../img/PNGs/Melamine-wood-002.png");
+  background-image: url("../img/PNGs/Melamine-wood-004.png");
+  background-image: url("../img/wood_1/wood_1.png");
 }
 
 section#contact {

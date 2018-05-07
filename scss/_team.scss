@@ -1,4 +1,8 @@
 // Styling for the team section
+.team-heading {
+  color: $secondary !important;
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -18,5 +22,6 @@
 }
 
 .bg-team {
-  background-image: url('../img/PNGs/Melamine-wood-002.png');
+  background-image: url('../img/PNGs/Melamine-wood-004.png');
+  background-image: url('../img/wood_1/wood_1.png');
 }

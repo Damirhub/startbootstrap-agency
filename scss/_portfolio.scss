@@ -62,6 +62,11 @@
     z-index: 2;
   }
 }
+
+.portfolio-heading {
+  color: $secondary;
+}
+
 @media(min-width:767px) {
   #portfolio {
     .portfolio-item {
@@ -79,6 +84,7 @@
   .modal-content {
     padding: 100px 0;
     text-align: center;
+    background-image: url('../img/PNGs/Melamine-wood-001.png');
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
@@ -144,11 +150,7 @@
 }
 
 .bg-portfolio {
-  // background-image: url('../img/img-noise-361x370.png');
-  background-image: url('../img/maple.jpg');
-  background-image: url('../img/pattern_images/6.jpg');
-  background-image: url('../img/PNGs/Melamine-wood-002.png');
-  //background-image: url('../img/wood_1/wood_1.png');
-  
-
+  //background-image: url('../img/PNGs/Melamine-wood-002.png');
+  background-image: url('../img/wood_1/wood_1.png');
+ // background-image: url('../img/wood_1/wood_dark.png');
 }
