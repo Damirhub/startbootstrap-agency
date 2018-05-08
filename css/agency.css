@@ -243,7 +243,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px;
+  margin-bottom: 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -600,7 +600,7 @@ header.masthead .intro-text .intro-heading {
   background-image: url("../img/PNGs/Melamine-wood-001.png");
 }
 
-.team-heading {
+.hobbies-heading {
   color: sandybrown !important;
 }
 
