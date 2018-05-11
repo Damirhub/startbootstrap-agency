@@ -26,24 +26,37 @@ section#contact {
   }
   ::-webkit-input-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: brown;
     @include heading-font;
   }
   :-moz-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: brown;
     /* Firefox 18- */
     @include heading-font;
   }
   ::-moz-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: brown;
     /* Firefox 19+ */
     @include heading-font;
   }
   :-ms-input-placeholder {
     font-weight: 700;
-    color: $gray-400;
+    color: brown;
     @include heading-font;
   }
+}
+
+.form-control{
+  background-color: cornsilk;
+  background-image: url('../img/wood-light.png');
+}
+
+.overline {
+  background-image: url('../img/wood-light.png');
+  height: 20px;
+  width: 100%;
+  background-repeat: repeat;
+  background-position: center;
 }

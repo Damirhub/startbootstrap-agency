@@ -238,7 +238,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bg-techno {
-  background-image: url("../img/PNGs/Melamine-wood-001.png");
+  background-image: url("../img/wood-light.png");
 }
 
 #portfolio .portfolio-item {
@@ -335,7 +335,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content {
   padding: 100px 0;
   text-align: center;
-  background-image: url("../img/PNGs/Melamine-wood-001.png");
+  background-image: url("../img/wood-light.png");
 }
 
 .portfolio-modal .modal-content h2 {
@@ -407,7 +407,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bg-portfolio {
-  background-image: url("../img/wood_1/wood_1.png");
+  background-image: url("../img/wood-dark.png");
 }
 
 .timeline {
@@ -597,7 +597,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bg-timeline {
-  background-image: url("../img/PNGs/Melamine-wood-001.png");
+  background-image: url("../img/wood-light.png");
 }
 
 .hobbies-heading {
@@ -626,8 +626,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bg-team {
-  background-image: url("../img/PNGs/Melamine-wood-004.png");
-  background-image: url("../img/wood_1/wood_1.png");
+  background-image: url("../img/wood-dark.png");
 }
 
 section#contact {
@@ -665,28 +664,41 @@ section#contact .form-control:focus {
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: brown;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: brown;
   /* Firefox 18- */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: brown;
   /* Firefox 19+ */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: brown;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.form-control {
+  background-color: cornsilk;
+  background-image: url("../img/wood-light.png");
+}
+
+.overline {
+  background-image: url("../img/wood-light.png");
+  height: 20px;
+  width: 100%;
+  background-repeat: repeat;
+  background-position: center;
 }
 
 footer {
